@@ -1,0 +1,136 @@
+* {
+	box-sizing: border-box;
+}
+
+div#navBar {
+	width: 100%;
+	background-color: #FF4500;
+	border-radius: 5px;
+	margin: 0;
+    padding: 0;
+	position: -webkit-sticky; /* Safari */
+	position: sticky;
+	top: 0;
+}
+
+div#navBar>a {
+	float: left;
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 5px;
+}
+
+#dropDownArea{
+	display: inline-block;
+}
+
+div#dropDownArea>a{
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 5px;
+}
+
+div#navBar>a:hover , div#dropDownArea>a:hover {
+	background-color: #FF6347;
+}
+
+
+div#dropDown {
+	display: none;
+	position: absolute;
+	border-radius: 5px;
+	background-color: #FF4500;
+	width: 60px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+div#dropDown>a {
+	display: block;
+	text-decoration: none;
+	color: white;
+	float: left;
+	padding: 10px;
+}
+
+div#dropDown>a:hover {
+	background-color: #FF6347;
+}
+
+div#dropDownArea:hover div#dropDown {
+	display: block;
+}
+
+
+div#responseArea {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	display: block;
+}
+
+div.renponsive {
+	width: 25%;
+	float: left;
+	background-color: #FFFAFA;
+}
+
+div.gallery {
+	border: 1px solid whitesmoke;
+	border-radius: 5px;
+	padding: 2px;
+	margin: 5px;
+	background-color: white;
+}
+
+div.gallery:hover {
+	border: 1px solid black;
+}
+
+div.gallery img {
+	width: 100%;
+	height: auto;
+}
+
+div.desc {
+	text-align: center;
+	padding: 10px;
+	border: 1px solid #FF4500;
+	width: fit-content;
+	border-radius: 15px;
+}
+
+div#clearFix {
+	overflow: hidden;
+	width: 50px;
+	height: 50px;
+	background-color: darkred;
+}
+
+#responseArea:after {
+	content: "";
+	display: block;
+	float: none;
+	clear: both;
+}
+
+
+@media screen and (max-width: 600px){
+	div.renponsive {
+		width: 50%;
+	}
+
+	div#navBar>a , #dropDownArea{
+	float: none;
+	display: block;
+	width: 100%;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 5px;
+}
+}

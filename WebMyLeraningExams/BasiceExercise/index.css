@@ -1,0 +1,28 @@
+
+#allScreenOfUser {
+	width: 70%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.screenOfUser {
+	float: left;
+	margin: 5px;
+	padding: 5px;
+	width: 30%;
+	height: 500px;
+	border: 1px solid black;
+}
+
+.screenOfUser img{
+	width: 100%;
+	height: 80%; 
+}
+
+.screenOfUser button{
+	width: 100%;
+}
+
+.screenOfUser h6{
+	width: 100%;
+}
