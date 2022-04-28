@@ -1,0 +1,81 @@
+* {
+	box-sizing: border-box;
+}
+
+form{
+	width: 650px;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 2px 2px 2px 2px #aaaaaa;
+}
+label,input{
+	display: block;
+	margin: 2px 0px;
+}
+
+input{
+	border-radius: 5px;
+	border: 0.5px solid lightgrey;
+	padding: 8px 5px;
+}
+
+input:hover {
+	border: 1px solid black;
+}
+
+
+
+div#namesArea div {
+	float: left;
+	width: 50%;
+	margin: 0;
+	padding: 10px;
+}
+
+div#namesArea>div>input {
+	width: 100%;
+}
+
+
+div#namesArea:after {
+	clear: both;
+	float: none;
+	content: "";
+	display: block;
+}
+
+div.inputAreaWide {
+	padding: 10px;
+}
+
+div.inputAreaWide>label {
+	padding-bottom: 2px;
+}
+
+div.inputAreaWide>input {
+	width: 100%;
+}
+
+select {
+	width: 100%;
+	padding: 10px 5px;
+	text-align: left;
+	vertical-align: middle;
+	border: 0.5px solid lightgrey;
+}
+
+@media screen and (max-width: 700px){
+	form{
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 2px 2px 2px 2px #aaaaaa;
+	}
+
+	div#namesArea div {
+	display: block;
+	width: 100%;
+	margin: 0;
+	padding: 10px;
+	}
+}

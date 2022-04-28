@@ -1,0 +1,15 @@
+div#htmlParaph, div#cParaph, div#jsParaph {
+	display: none;
+}
+
+div#htmlParaph:target {
+	display: block;
+}
+
+div#cParaph:target, div#jsParaph:target {
+	display: block;
+}
+
+div#jsParaph:target {
+	display: block;
+}

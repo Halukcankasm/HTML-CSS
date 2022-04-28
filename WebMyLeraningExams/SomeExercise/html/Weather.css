@@ -1,0 +1,63 @@
+#main {
+	width: fit-content;
+	height: fit-content;
+	margin-left: auto;
+	margin-right: auto;;
+}
+
+
+#weatherScreen {
+	display: flex;
+	width: 700px;
+}
+
+#statementOfWeather {
+	float: right;
+	width: 160px;
+	margin-left: 120px;
+
+}
+
+#statementOfWeather div{
+	display: block;
+}
+
+#popWeatherScreen {
+	width: 120px;
+}
+
+#popWeatherScreen img{
+	display: inline-block;
+}
+
+#derece {
+	display: inline-block;
+	float: right;
+}
+
+#allSmallWeatherScreen {
+	width: 400px;
+	display: inline-flex;
+	
+}
+.smallWeatherScreen h4,img,h5{
+	text-align: center;
+	vertical-align: center;
+}
+
+.smallWeatherScreen img{
+	width: 50px;
+	height: 50px;
+}
+
+.smallWeatherScreen {
+	padding: 10px;
+}
+
+.smallWeatherScreen:hover {
+	background-color: #f6f7f9;
+} 
+
+
+
+

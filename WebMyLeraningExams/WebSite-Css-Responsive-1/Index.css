@@ -1,0 +1,86 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+div#header {
+	width: 100%;
+	text-align: center;padding: 20px; 
+	background-color: #f1f1f1;
+}
+
+div#header h1,h6 {
+	padding-bottom: 20px;
+}
+
+div#navBar {
+	width: 100%;
+	background-color: black;
+	float: left;
+}
+
+div#navBar a {
+	padding: 15px 15px;
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+}
+
+div#navBar a:hover {
+	background-color: #f1f1f1;
+
+}
+
+div#navBar::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+div#mainBody {
+	width: 100%;
+}
+
+div#mainBody::after {
+	clear: both;
+	content: "";
+	display: table;
+}
+
+div#mainBody h1 {
+	padding-bottom: 10px;
+}
+
+div#mainBody div.sideArea {
+	width: 25%;
+	float: left;
+	padding: 10px;
+}
+
+div#mainBody div.mainArea {
+	width: 50%;
+	float: left;
+	padding: 10px;
+}
+
+div#footer {
+	width: 100%;
+	padding: 10px;
+	background-color: #f1f1f1;
+}
+
+@media screen and (max-width: 600px) {
+	div#mainBody div.sideArea {
+	width: 100%;
+	float: none;
+	display: block;
+}
+
+div#mainBody div.mainArea {
+	width: 100%;
+	float: none;
+	padding: 10px;
+	display: block;
+}
+}

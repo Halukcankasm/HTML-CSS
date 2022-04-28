@@ -1,0 +1,36 @@
+
+#navBar {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #333;
+}
+
+#navBar header{
+	float: left;
+	display: inline-block;
+	padding: 8px;
+	color: white;
+}
+
+#navBar li>a{
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	padding: 8px;
+}
+
+#navBar li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 8px 0px 8px 0px;
+	text-align: center;
+}
+
+
+#navBar li:hover{
+	background-color: #111;  
+}
+
+
+

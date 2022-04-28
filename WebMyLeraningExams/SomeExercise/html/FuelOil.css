@@ -1,0 +1,30 @@
+body {
+	background-color: #f6f7f9;
+}
+
+table caption {
+	float: center;
+}
+
+table {
+	border: 1px solid #f6f7f9;
+	border-collapse: collapse;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: white;
+}
+
+table td {
+	text-align: center;
+	padding: 5px;
+	padding: 10px 0px 10px 0px;
+	border: 2px solid #f6f7f9;
+}
+
+table th {
+	text-align: center;
+	padding: 5px;
+	border-bottom: 2px solid #f6f7f9;
+	font-size: large;
+}

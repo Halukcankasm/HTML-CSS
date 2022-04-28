@@ -1,0 +1,71 @@
+/*
+
+ul {
+	background-color: red;
+
+}
+
+li {
+	background-color: red;
+}
+
+h1 {
+	background-color: red;
+	font-size: 15px;
+	margin: 10px;
+}
+
+table#sampleDataTable {
+	width: 100%
+}
+
+	table#sampleDataTable th,td {
+		padding: 15px;
+		margin: 20px;
+		text-align: left;
+		vertical-align: center;
+		background-color: lightgray;
+	}
+
+	table#sampleDataTable td {
+		border : 1px solid black;
+	}
+
+	table#sampleDataTable {
+		border-spacing: 5px;
+		border: 1px solid red;
+	}
+
+*/
+
+table#brentPetrolFiyatListesi{
+	border: 1px solid black; 
+	border-collapse: collapse;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+	table#brentPetrolFiyatListesi tr:hover {
+		background-color: gray;
+	}
+
+	table#brentPetrolFiyatListesi th {
+		height: 50px;
+	}
+
+	table#brentPetrolFiyatListesi td {
+		height: 30px;
+		text-align: center;
+	}
+
+
+
+table#brentPetrolFiyatListesi th,td {
+	border-bottom: 1px solid black;
+}
+
+table#brentPetrolFiyatListesi caption {
+	text-align: center;
+}
